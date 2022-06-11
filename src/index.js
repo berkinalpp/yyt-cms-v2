@@ -8,12 +8,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <AuthProvider>
+      <AuthProvider>
         <Routes>
           <Route path="/*" element={<App />} />
         </Routes>
+      </AuthProvider>
     </BrowserRouter>
-    </AuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
