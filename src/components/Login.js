@@ -14,6 +14,7 @@ import Alert from "@mui/material/Alert"
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "../api/axios";
+import Header from "./Header";
 const LOGIN_URL = "/api/Auth/login";
 function Copyright(props) {
     return (
@@ -89,6 +90,7 @@ const Login = () => {
 
   return (
     <ThemeProvider theme={theme}>
+    <Header/>
     <Grid container component="main" sx={{ height: "100vh" }}>
       <CssBaseline />
       <Grid

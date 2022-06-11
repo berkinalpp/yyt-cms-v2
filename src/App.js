@@ -27,7 +27,7 @@ function App() {
         {/* we want to protect these routes */}
         {/*allowedRoles={[ROLES.User]}*/}
         <Route element={<RequireAuth  />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
         </Route>
         {/*allowedRoles={[ROLES.Editor, ROLES.Admin]}*/}
         <Route
