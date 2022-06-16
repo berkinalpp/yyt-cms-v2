@@ -1,13 +1,19 @@
-a{
-  text-decoration: none;
-  color: #000;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
-.signout {
-  padding:.75rem;
-  border-radius:5px;
-  background-color: chartreuse;
-  color:#000;
-  border:none;
-  margin-left:3rem;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background-color: red;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+li {
+  list-style:none;
+}
+a {
+  text-decoration: none;
 }
