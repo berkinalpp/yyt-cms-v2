@@ -1,6 +1,6 @@
 import React from 'react'
-import Table from './Table'
-import Search from './Search'
+import Table from '../Table/Table'
+import Search from '../Search/Search'
 const ContentTypeManager = () => {
   return (
     <div>

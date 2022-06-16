@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
-import LogOut from "./LogOut";
+import LogOut from "../Logout/Logout";
 const pages = [
   "Content Type Builder",
   "Content Type Manager",

@@ -1,15 +1,15 @@
-import Login from "./components/Login";
-import Home from "./components/Home";
-import Layout from "./components/Layout";
-import Missing from "./components/Missing";
-import Unauthorized from "./components/Unauthorized";
-import RequireAuth from "./components/RequireAuth";
+import Login from "./components/Login/Login";
+import Home from "./components/Home/Home";
+import Layout from "./components/Layout/Layout";
+import Missing from "./components/Missing/Missing";
+import Unauthorized from "./components/Unauthorized/Unauthorized";
+import RequireAuth from "./components/RequireAuth/RequireAuth";
 import { Routes, Route } from "react-router-dom";
-import ContentTypeBuilder from "./components/ContentTypeBuilder";
-import ContentTypeManager from "./components/ContentTypeManager";
-import Contents from "./components/Contents";
-import UserManager from "./components/UserManager";
-import Table from "./components/Table";
+import ContentTypeBuilder from "./components/ContentTypeBuilder/ContentTypeBuilder";
+import ContentTypeManager from "./components/ContentTypeManager/ContentTypeManager";
+import Contents from "./components/Contents/Contents";
+import UserManager from "./components/UserManager/UserManager";
+import Table from "./components/Table/Table";
 /*const ROLES = {
   User: 2001,
   Editor: 1984,

@@ -1,5 +1,5 @@
 import React from 'react'
-import Table from './Table'
+import Table from '../Table/Table'
 import { useLocation } from 'react-router-dom';
 const Contents = () => {
   const location = useLocation().pathname.split("/");

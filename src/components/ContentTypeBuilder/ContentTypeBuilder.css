@@ -1,0 +1,11 @@
+#fieldInfo{
+    border-collapse: collapse;
+}
+#fieldInfo tr:hover {background-color: #ddd;}
+#fieldInfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
